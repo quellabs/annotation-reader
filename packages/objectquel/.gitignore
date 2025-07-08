@@ -1,4 +1,0 @@
-composer.lock
-/vendor/
-/src/EntityManager/Proxies
-!/src/EntityManager/Proxies/.htaccess
