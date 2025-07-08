@@ -1,0 +1,40 @@
+{
+  "name": "quellabs/annotation-reader",
+  "description": "A PHP annotations reader that parses, processes, and caches docblock annotations for classes, properties, and methods.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Floris van den Berg",
+      "email": "info@quellabs.com"
+    }
+  ],
+  "support": {
+    "email": "support@quellabs.com",
+    "issues": "https://github.com/quellabs/annotation-reader/issues",
+    "forum": "https://github.com/quellabs/annotation-reader/discussions",
+    "wiki": "https://github.com/quellabs/annotation-reader/wiki",
+    "docs": "https://annotation-reader.quellabs.com/docs",
+    "source": "https://github.com/quellabs/annotation-reader"
+  },
+  "require": {
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Quellabs\\AnnotationReader\\": "src/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.8",
+    "phpstan/phpstan": "^2.1"
+  },
+  "config": {
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
